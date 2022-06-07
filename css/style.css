@@ -26,3 +26,14 @@ html {
   max-width: 80vw;
   margin: 0 auto;
 }
+
+.bttn {
+  font-size: var(--font-small);
+  text-transform: uppercase;
+  color: #332200;
+  text-decoration: none;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  padding: 16px 32px;
+  border-radius: 5px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
