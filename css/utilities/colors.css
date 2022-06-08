@@ -1,0 +1,67 @@
+:root {
+  --c0: #ffffff;
+  --c1: #f7f7f7;
+  --c2: #ededed;
+  --c3: #dedede;
+  --c4: #cccccc;
+  --c5: #b2b2b2;
+  --c6: #9c9c9c;
+  --c7: #717171;
+  --c8: #595959;
+  --c9: #404040;
+  --c10: #2e2e2e;
+  --c11: #111111;
+  --c12: #000000;
+}
+
+.color-0 {
+  color: var(--c0)
+}
+
+.color-1 {
+  color: var(--c1)
+}
+
+.color-2 {
+  color: var(--c2)
+}
+
+.color-3 {
+  color: var(--c3)
+}
+
+.color-4 {
+  color: var(--c4)
+}
+
+.color-5 {
+  color: var(--c5)
+}
+
+.color-6 {
+  color: var(--c6)
+}
+
+.color-7 {
+  color: var(--c7)
+}
+
+.color-8 {
+  color: var(--c8)
+}
+
+.color-9 {
+  color: var(--c9)
+}
+
+.color-10 {
+  color: var(--c10)
+}
+
+.color-11 {
+  color: var(--c11)
+}
+
+.color-12 {
+  color: var(--c12)
+}

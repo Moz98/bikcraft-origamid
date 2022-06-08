@@ -1,0 +1,21 @@
+.bttn {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.33;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #332200;
+  text-decoration: none;
+  background: linear-gradient(#ffbf00, #f2a50c);
+  padding: 16px 32px;
+  border-radius: 5px;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 490px) {
+  .bttn {
+    font-size: var(--extra-font-small);
+    padding: 8px 16px;
+  }
+}

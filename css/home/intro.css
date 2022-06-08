@@ -1,0 +1,47 @@
+.intro-bg {
+  background-color: #000000;
+  max-width: 100vw;
+  box-shadow: inset 0 -120px var(--c0);
+}
+
+.intro-content {
+  margin: 0 auto;
+  max-width: 80vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 80px;
+  align-items: end;
+}
+
+
+.intro-content>article>h1>span {
+  color: #FFBB00;
+}
+
+
+
+@media (max-width: 1024px) {
+
+  /* ||| Intro ||| */
+
+  .intro-content {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-content>article {
+    padding-bottom: 40px;
+  }
+}
+
+
+@media (max-width: 780px) {
+
+  .intro-content>article>h1 {
+    font-size: var(--font-medium);
+  }
+
+  .intro-content>article>p {
+    font-size: var(--font-small);
+  }
+
+}

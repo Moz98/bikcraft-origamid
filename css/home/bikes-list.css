@@ -1,0 +1,43 @@
+.list-bike h2 {
+  margin-bottom: 40px;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  /* overflow-x: scroll; */
+  min-width: 400px;
+}
+
+.list li picture img {
+  border-radius: 5px;
+}
+
+.list li h3 {
+  display: flex;
+  align-items: center;
+}
+
+.list a {
+  display: block;
+}
+
+.list li h3::before {
+  content: "";
+  display: inline-block;
+  height: 8px;
+  width: 12px;
+  margin-right: 8px;
+  background-color: #ffbb00;
+  transition: 0.3s;
+}
+
+.list li a:hover h3::before {
+  height: 22px;
+}
+
+
+.list li p {
+  margin-left: 22px;
+}

@@ -1,39 +1,26 @@
-/* || FONT || */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;700&display=swap');
+/* || GLOBAL || */
 
-/* || IMPORT || */
-@import "./reset.css";
-@import "./head.css";
+@import "./global/reset.css";
 
-/* || ROOT || */
+@import "./utilities/typography.css";
 
-:root {
-  --white-color: #ffffff;
-  --black-color: #000000;
-  --grey-color: #b2b2b2;
-  --extra-font-small: 0.875rem;
-  --font-small: 1.125rem;
-  --font-medium: 1.5rem;
-  --font-large: 4rem;
-}
+@import "./utilities/colors.css";
+
+@import "./utilities/spacing.css";
+
+@import "./utilities/containers.css";
+
+@import "./global/header.css";
+
+/* || COMPONENTES || */
+
+@import "./components/bttn.css";
+
+/* || HOME || */
+
+@import "./home/intro.css";
+
+@import "./home/bikes-list.css";
+
 
 /* || GLOBAL || */
-html {
-  font-family: 'Poppins', sans-serif;
-}
-
-.container {
-  max-width: 80vw;
-  margin: 0 auto;
-}
-
-.bttn {
-  font-size: var(--font-small);
-  text-transform: uppercase;
-  color: #332200;
-  text-decoration: none;
-  background: linear-gradient(#ffbf00, #f2a50c);
-  padding: 16px 32px;
-  border-radius: 5px;
-  box-shadow: 0 1px rgba(0, 0, 0, 0.1);
-}
