@@ -8,19 +8,23 @@
 
 @import "./utilities/spacing.css";
 
-@import "./utilities/containers.css";
+
 
 @import "./global/header.css";
 
 /* || COMPONENTES || */
 
+@import "./components/containers.css";
+
 @import "./components/bttn.css";
 
+@import "./components/link.css";
 /* || HOME || */
 
 @import "./home/intro.css";
 
 @import "./home/bikes-list.css";
 
+@import "./home/tech.css";
 
 /* || GLOBAL || */

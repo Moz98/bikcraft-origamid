@@ -6,12 +6,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  /* overflow-x: scroll; */
+  overflow-x: auto;
   min-width: 400px;
+  padding-bottom: 20px;
 }
 
-.list li picture img {
-  border-radius: 5px;
+.list li {
+  min-width: 280px;
+}
+
+.list li img {
+  max-width: 100%;
 }
 
 .list li h3 {
@@ -29,7 +34,7 @@
   height: 8px;
   width: 12px;
   margin-right: 8px;
-  background-color: #ffbb00;
+  background-color: var(--p1);
   transition: 0.3s;
 }
 
@@ -37,7 +42,24 @@
   height: 22px;
 }
 
-
 .list li p {
   margin-left: 22px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .list {
+    gap: 20px;
+  }
+
+  .list li a:hover h3::before {
+    height: 8px;
+  }
+}
+
+@media (max-width: 780px) {
+  .list {
+    gap: 10px;
+  }
 }

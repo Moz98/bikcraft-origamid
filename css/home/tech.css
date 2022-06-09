@@ -1,0 +1,48 @@
+.tech-bg {
+  background-color: var(--c11);
+  box-shadow: inset 0px 80px var(--c0), inset 0px -80px var(--c0);
+}
+
+.tech-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  align-items: center;
+
+}
+
+.tech-content picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tech-content-col1 {
+  padding: 160px 0;
+}
+
+.tech-topics {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.tech-topics li img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+.tech-topics li h4 {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1024px) {
+  .tech-content {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-content picture img {
+    display: none;
+  }
+}

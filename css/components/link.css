@@ -1,0 +1,15 @@
+.link {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--p1);
+  padding: 8px 0;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
+
+
+.link:hover {
+  border-color: currentColor;
+}
