@@ -1,27 +1,19 @@
 .terms {
-  margin: 120px 0;
-  max-width: 90ch;
+  padding: 120px 0;
+  max-width: 80ch;
 }
 
-.terms>li {
+.terms h3 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5;
+  font-size: 1.5rem;
   font-weight: 600;
-  color: var(--c11);
-  margin-bottom: 48px;
-}
-
-.terms>li>h3 {
   margin-bottom: 20px;
 }
 
-.terms>li>ol {
-  font-family: 'Roboto';
-  font-size: 1.125rem;
-  font-weight: 400;
-  color: var(--c10);
+.terms p+h3 {
+  margin-top: 42px;
 }
 
-.terms>li>ol>li {
-  margin-bottom: 20px;
+.terms p+p {
+  margin-top: 16px;
 }
