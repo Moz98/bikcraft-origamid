@@ -1,0 +1,48 @@
+.testimony {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: var(--p1);
+  align-items: end;
+  font-family: 'Merriweather';
+  font-weight: 900;
+  font-size: 2.25rem;
+  font-style: italic;
+}
+
+.testimony-image {
+  object-fit: cover;
+  object-position: center;
+}
+
+.testimony-content {
+  padding: 80px;
+}
+
+.a {
+  margin-bottom: 32px;
+  max-width: 40ch;
+  position: relative;
+}
+
+.a:before {
+  content: '“';
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 5rem;
+  color: var(--p2);
+  position: absolute;
+  left: -50px;
+  top: -25px;
+}
+
+
+.a:after {
+  content: '”';
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 5rem;
+  color: var(--p2);
+  position: absolute;
+  bottom: -65px;
+
+}
