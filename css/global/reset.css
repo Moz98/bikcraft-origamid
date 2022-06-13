@@ -48,7 +48,6 @@ center,
 dl,
 dt,
 dd,
-ol,
 ul,
 li,
 fieldset,
@@ -91,7 +90,6 @@ video {
   vertical-align: baseline;
 }
 
-ol,
 ul {
   padding: 0px;
   list-style: none;
