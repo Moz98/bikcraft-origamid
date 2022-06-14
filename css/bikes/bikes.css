@@ -1,0 +1,88 @@
+.bikes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 120px 0;
+}
+
+.bikes-list>li:nth-child(even) {
+  background-color: var(--c11);
+  padding: 60px 0;
+  box-shadow: inset 260px 0px var(--c0), 1000px 0px var(--c11);
+}
+
+.bikes-desc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.bikes-img {
+  display: grid;
+}
+
+.bikes-img img {
+  grid-area: 1/1;
+}
+
+.bikes-img span {
+  grid-area: 1/1;
+  background-color: var(--c12);
+  padding: 8px 20px 8px 8px;
+  border-radius: 4px 0 0 4px;
+  place-self: start end;
+  margin-top: 20px;
+}
+
+
+.bikes-content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: start;
+}
+
+.bikes-content h3,
+.bikes-content p {
+  grid-column: 1/-1;
+}
+
+.bikes-content h3 {
+  justify-self: start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.bikes-content h3::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  border-radius: 0 5px 5px 0;
+  top: -20px;
+  margin-bottom: 8px;
+  background-color: var(--p1);
+  transition: 0.2s;
+}
+
+.bikes-content:hover h3::before {
+  width: 100%;
+}
+
+.bikes-content ul {
+  display: grid;
+  gap: 10px;
+}
+
+.bikes-content li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bikes-content img {
+  width: 24px;
+}
+
+.bikes-content .bttn {
+  place-self: end;
+}
