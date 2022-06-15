@@ -1,0 +1,61 @@
+#insurance .insurance {
+  padding-top: 0px;
+}
+
+.insurance-topics,
+.questions {
+  padding: 120px 0;
+}
+
+.insurance-topics h2,
+.questions h2 {
+  margin-bottom: 60px;
+}
+
+.insurance-topics ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+
+.insurance-topics ul li *+* {
+  margin-top: 8px;
+}
+
+.questions div {
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.questions div:nth-child(odd) {
+  background-color: var(--c1);
+}
+
+.questions dl dt {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.questions dl dt::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  background-color: var(--p1);
+}
+
+.questions dl dt::after {
+  content: "";
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+  background: url(../../img/icones/seta-abrir.svg);
+}
+
+.questions dl dd {
+  margin-top: 16px;
+  padding-left: 20px;
+}

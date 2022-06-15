@@ -40,8 +40,12 @@
 
 @import "./terms/terms.css";
 
-/* || bikes || */
+/* || BIKES || */
 
 @import "./bikes/bikes.css";
+
+/* || INSURANCE || */
+
+@import "./insurance/insurance-p.css";
 
 /* || GLOBAL || */
