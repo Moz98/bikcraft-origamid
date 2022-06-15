@@ -1,0 +1,135 @@
+.bike-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 40px;
+  padding: 60px 0;
+}
+
+.bike-img {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 20px;
+}
+
+.bike-img img:first-child {
+  grid-column: 1/-1;
+}
+
+.bike-content>*+* {
+  margin-top: 40px;
+}
+
+.content-buy {
+  display: grid;
+  grid-template-columns: max-content auto;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.content-buy .bttn {
+  grid-row: span 2;
+}
+
+.content-buy span {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  background-color: var(--c12);
+  border-radius: 4px;
+  padding: 4px 8px;
+}
+
+.content-buy span:nth-child(2)::before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  background: url("../../img/icones/entrega.svg");
+}
+
+.content-buy span:nth-child(3)::before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-right: 8px;
+  background: url("../../img/icones/estoque.svg");
+}
+
+.bike-info h3,
+.bike-esp h3 {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.bike-info ul {
+  background-color: var(--c12);
+  padding: 32px;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 32px;
+  align-items: center;
+}
+
+.bike-info ul>li>img {
+  height: 24px;
+  width: 24px;
+  margin-bottom: 4px;
+}
+
+.bike-info ul>li>h4 {
+  margin-bottom: 8px;
+}
+
+.bike-esp ul {
+  background-color: var(--c12);
+  padding: 32px;
+  border-radius: 4px;
+}
+
+.bike-esp ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.bike-esp ul li+li {
+  border-top: 1px solid var(--c11);
+}
+
+#bike .list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.shadow.title-bg {
+  box-shadow: inset 0 120px var(--c0), inset 0 -120px var(--c12);
+}
+
+.insurance2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.insurance2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.insurance-content {
+  padding: 180px 0;
+}
+
+.insurance-content h2 {
+  margin-bottom: 32px;
+}
+
+.insurance-content p {
+  margin-bottom: 20px;
+}

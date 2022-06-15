@@ -48,4 +48,6 @@
 
 @import "./insurance/insurance-p.css";
 
-/* || GLOBAL || */
+/* || INTERN BIKES || */
+
+@import "./intern-bikes/bike.css";
