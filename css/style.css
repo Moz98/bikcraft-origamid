@@ -22,6 +22,8 @@
 
 @import "./components/title.css";
 
+@import "./components/form.css";
+
 /* || HOME || */
 
 @import "./home/intro.css";
@@ -51,3 +53,7 @@
 /* || INTERN BIKES || */
 
 @import "./intern-bikes/bike.css";
+
+/* || CONTACT || */
+
+@import "./contact/contact.css";
