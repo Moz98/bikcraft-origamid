@@ -59,3 +59,8 @@
 @import "./contact/contact.css";
 
 @import "./contact/store.css";
+
+
+/* || BUDGET || */
+
+@import "./budget/budget.css";

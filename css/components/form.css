@@ -12,10 +12,7 @@ label {
   color: var(--c11);
 }
 
-form fieldset+fieldset,
-form *+button {
-  margin-top: 20px;
-}
+
 
 *::placeholder {
   color: var(--c7);
@@ -27,7 +24,8 @@ form *+button {
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-textarea {
+textarea,
+select {
   width: 100%;
   border-radius: 4px;
   padding: 12px;
@@ -41,9 +39,14 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
-textarea:focus {
+textarea:focus,
+select:focus {
   outline: none;
   border-color: var(--p1);
   background: var(--c0);
   box-shadow: 0 0 0 2px var(--p1);
+}
+
+.span2 {
+  grid-column: span 2;
 }

@@ -43,10 +43,6 @@
   gap: 0;
 }
 
-.contact-store-desc ul li {
-  /* padding: 2px; */
-}
-
 .contact-store-desc ul li::before {
   content: "";
   display: inline-block;

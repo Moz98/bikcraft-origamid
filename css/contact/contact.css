@@ -94,6 +94,11 @@ address a:last-child::before {
   border-radius: 0 4px 4px 0;
 }
 
+form fieldset+fieldset,
+form *+button {
+  margin-top: 20px;
+}
+
 .contact-form fieldset:first-child {
   display: grid;
   grid-template-columns: 1fr 1fr;
