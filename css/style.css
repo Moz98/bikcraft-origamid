@@ -1,12 +1,14 @@
 /* || GLOBAL || */
 
-@import "./global/reset.css";
+@import "./config/reset.css";
 
-@import "./utilities/typography.css";
+@import "./config/typography.css";
 
-@import "./utilities/colors.css";
+@import "./config/colors.css";
 
-@import "./utilities/spacing.css";
+@import "./config/spacing.css";
+
+@import "./global/bg.css";
 
 @import "./global/header.css";
 
