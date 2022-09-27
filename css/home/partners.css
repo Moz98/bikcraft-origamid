@@ -42,3 +42,17 @@
     border-left: initial;
   }
 }
+
+@media (max-width: 650px) {
+  .partners ul {
+    grid-template-columns: 1fr;
+  }
+
+  .partners ul li {
+    border-left: none;
+  }
+
+  .partners ul li:nth-child(2) {
+    border-top: 1px solid var(--c2);
+  }
+}
