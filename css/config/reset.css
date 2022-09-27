@@ -81,7 +81,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+picture {
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -103,8 +104,6 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
-  /* height: auto; */
 }
 
 img[src$="jpg"] {

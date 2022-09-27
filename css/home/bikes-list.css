@@ -24,6 +24,10 @@
   display: block;
 }
 
+.list a img {
+  max-width: 100%;
+}
+
 .list li h3::before {
   content: "";
   display: inline-block;
