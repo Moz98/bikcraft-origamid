@@ -1,17 +1,13 @@
 .partners {
-  margin-bottom: 100px;
-}
-
-.partners h2 {
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 120px;
+  padding-inline: 20px;
 }
 
 .partners ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   place-content: center;
-  max-width: 1400px;
-  margin: 0 auto;
 }
 
 .partners ul li {
@@ -22,9 +18,7 @@
 
 .partners ul img {
   margin: 0 auto;
-
 }
-
 
 .partners ul li:first-child,
 .partners ul li:nth-child(5) {
@@ -33,7 +27,6 @@
 
 .partners ul li:nth-child(n + 5) {
   border-top: 1px solid var(--c2);
-  ;
 }
 
 @media (max-width: 1024px) {
@@ -41,7 +34,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .partners ul li:nth-child(n +3) {
+  .partners ul li:nth-child(n + 3) {
     border-top: 1px solid var(--c2);
   }
 
