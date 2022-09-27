@@ -1,5 +1,5 @@
-.list-bike h2 {
-  margin-bottom: 40px;
+.list-bike {
+  padding: 120px 20px;
 }
 
 .list {
@@ -13,10 +13,6 @@
 
 .list li {
   min-width: 280px;
-}
-
-.list li img {
-  max-width: 100%;
 }
 
 .list li h3 {
@@ -45,8 +41,6 @@
 .list li p {
   margin-left: 22px;
 }
-
-
 
 @media (max-width: 1024px) {
   .list {

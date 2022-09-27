@@ -6,8 +6,6 @@
 
 @import "./config/colors.css";
 
-@import "./config/spacing.css";
-
 @import "./global/bg.css";
 
 @import "./global/header.css";
@@ -18,6 +16,7 @@
 
 @import "./components/containers.css";
 
+@import "./config/spacing.css";
 @import "./components/bttn.css";
 
 @import "./components/link.css";
@@ -61,7 +60,6 @@
 @import "./contact/contact.css";
 
 @import "./contact/store.css";
-
 
 /* || BUDGET || */
 

@@ -16,7 +16,7 @@
 
 .navegation a {
   color: var(--c0);
-  padding: 16px 0;
+  padding: 16px 12px;
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -29,7 +29,6 @@
 }
 
 @media (max-width: 780px) {
-
   .header {
     gap: 20px;
     justify-content: center;
