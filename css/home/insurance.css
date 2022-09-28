@@ -1,51 +1,42 @@
-.insurance-bg {
-  background-color: var(--c11);
-}
-
 .insurance {
-  padding-top: 120px;
+  padding-top: 60px;
+  padding-inline: 20px;
 }
 
-.insurance>ul {
+.insurance > ul {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   align-items: center;
+  padding-bottom: 120px;
 }
 
-
-
-.insurance>ul>li {
+.insurance > ul > li {
   padding: 32px 32px 32px 60px;
   border-radius: 5px;
   background-color: var(--c12);
-  margin-bottom: 120px;
 }
 
-.insurance>ul>li>div {
+.insurance > ul > li > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
-  margin-bottom: 40px;
+}
+
+.insurance > ul > li > div > h3 {
   position: relative;
 }
 
-.insurance>ul>li>div>span::after {
-  content: "mensal";
+.insurance ul span {
   display: block;
-  position: absolute;
-  font-size: 0.875rem;
-  text-transform: lowercase;
-  color: var(--c6);
-  margin-left: 45px;
+  text-align: right;
 }
 
 .insurance-advantages {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  margin-bottom: 32px;
 }
 
 .insurance-advantages li {
@@ -58,4 +49,10 @@
   color: var(--p1);
   left: -25px;
   position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .insurance > ul {
+    grid-template-columns: 1fr;
+  }
 }

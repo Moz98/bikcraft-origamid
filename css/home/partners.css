@@ -56,3 +56,9 @@
     border-top: 1px solid var(--c2);
   }
 }
+
+@media (max-width: 440px) {
+  .partners ul img {
+    width: 120px;
+  }
+}

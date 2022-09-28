@@ -110,7 +110,11 @@
   }
 
   .font-1-xl {
-    font-size: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .font-1-xs {
+    font-size: 0.75rem;
   }
 
   .font-2-l {
