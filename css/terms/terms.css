@@ -1,19 +1,24 @@
+.title,
 .terms {
-  padding: 120px 0;
+  padding-inline: 20px;
+}
+
+.terms {
+  padding-block: 60px;
   max-width: 80ch;
 }
 
 .terms h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-.terms p+h3 {
+.terms p + h3 {
   margin-top: 42px;
 }
 
-.terms p+p {
+.terms p + p {
   margin-top: 16px;
 }
