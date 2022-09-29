@@ -7,9 +7,10 @@
   padding: 120px 0;
 }
 
+.insurance-topics,
 .insurance-topics h2,
-.questions h2 {
-  margin-bottom: 60px;
+.questions {
+  padding-inline: 20px;
 }
 
 .insurance-topics ul {
@@ -19,7 +20,7 @@
   gap: 40px;
 }
 
-.insurance-topics ul li *+* {
+.insurance-topics ul li * + * {
   margin-top: 8px;
 }
 
@@ -58,4 +59,16 @@
 .questions dl dd {
   margin-top: 16px;
   padding-left: 20px;
+}
+
+@media (max-width: 600px) {
+  .insurance-topics ul {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .insurance-topics ul {
+    grid-template-columns: 1fr;
+  }
 }
