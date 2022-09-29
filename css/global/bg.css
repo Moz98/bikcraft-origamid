@@ -20,6 +20,10 @@
   box-shadow: inset 0 120px var(--c0), inset 0 -120px var(--c12);
 }
 
+#contact {
+  background: linear-gradient(var(--c11) 600px, var(--c1) 0px);
+}
+
 @media (max-width: 1000px) {
   .bike-bg {
     background: linear-gradient(to bottom, var(--c0) 25%, var(--c11) 0%);

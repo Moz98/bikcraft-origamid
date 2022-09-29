@@ -1,5 +1,5 @@
-.contact-store h2 {
-  padding: 120px 0;
+.contact-store {
+  padding-inline: 20px;
 }
 
 .contact-store-loc {
@@ -12,6 +12,10 @@
 .contact-store-loc div {
   box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
   border-radius: 0 0 4px 4px;
+}
+
+.contact-store-loc div img {
+  width: 100%;
 }
 
 .contact-store-desc {
@@ -67,4 +71,10 @@
   top: 15px;
   margin-right: 12px;
   background: var(--p1);
+}
+
+@media (max-width: 860px) {
+  .contact-store-loc {
+    grid-template-columns: 1fr;
+  }
 }

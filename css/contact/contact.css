@@ -1,11 +1,8 @@
-#contact {
-  background-color: var(--c1);
-}
-
 .contact {
   display: grid;
   grid-template-columns: 5fr 7fr;
   border-radius: 4px;
+  padding-inline: 20px;
 }
 
 .contact-data,
@@ -31,7 +28,6 @@ address {
   gap: 4px;
   padding-left: 28px;
   margin: 32px 0 60px 0;
-
 }
 
 address a {
@@ -74,7 +70,6 @@ address a:last-child::before {
   position: absolute;
 }
 
-
 .contact-networks {
   display: flex;
   gap: 20px;
@@ -94,8 +89,8 @@ address a:last-child::before {
   border-radius: 0 4px 4px 0;
 }
 
-form fieldset+fieldset,
-form *+button {
+form fieldset + fieldset,
+form * + button {
   margin-top: 20px;
 }
 
@@ -104,4 +99,16 @@ form *+button {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 20px;
+}
+
+@media (max-width: 860px) {
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .contact-form fieldset:first-child {
+    grid-template-columns: 1fr;
+  }
 }
