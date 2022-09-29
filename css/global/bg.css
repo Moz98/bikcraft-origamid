@@ -11,3 +11,13 @@
 .insurance-bg {
   background-color: var(--c11);
 }
+
+.bike-bg {
+  background: linear-gradient(to right, var(--c0) 25%, var(--c11) 0%);
+}
+
+@media (max-width: 1000px) {
+  .bike-bg {
+    background: linear-gradient(to bottom, var(--c0) 25%, var(--c11) 0%);
+  }
+}

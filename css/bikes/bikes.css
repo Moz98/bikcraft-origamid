@@ -1,44 +1,36 @@
-.bikes-list {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  margin: 120px 0;
-}
-
-.bikes-list>li:nth-child(even) {
-  background-color: var(--c11);
-  padding: 60px 0;
-  box-shadow: inset 260px 0px var(--c0), 1000px 0px var(--c11);
-}
-
 .bikes-desc {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
+  padding-block: 60px;
+  padding-inline: 20px;
 }
 
 .bikes-img {
-  display: grid;
+  position: relative;
 }
 
 .bikes-img img {
-  grid-area: 1/1;
+  height: auto;
+  width: 100%;
 }
 
 .bikes-img span {
-  grid-area: 1/1;
-  background-color: var(--c12);
-  padding: 8px 20px 8px 8px;
-  border-radius: 4px 0 0 4px;
-  place-self: start end;
-  margin-top: 20px;
-}
+  background-color: #000;
+  padding: 8px 16px 8px 8px;
+  display: inline-block;
 
+  position: absolute;
+  top: 20px;
+  right: 0px;
+
+  border-radius: 4px 0 0 4px;
+}
 
 .bikes-content {
   display: grid;
   grid-template-columns: 1fr auto;
-  justify-content: start;
+  align-content: start;
 }
 
 .bikes-content h3,
@@ -46,26 +38,17 @@
   grid-column: 1/-1;
 }
 
-.bikes-content h3 {
-  justify-self: start;
-  margin-bottom: 20px;
-  position: relative;
-}
-
 .bikes-content h3::before {
   content: "";
   display: block;
   width: 12px;
   height: 8px;
-  border-radius: 0 5px 5px 0;
-  top: -20px;
-  margin-bottom: 8px;
   background-color: var(--p1);
-  transition: 0.2s;
+  margin-bottom: 8px;
 }
 
-.bikes-content:hover h3::before {
-  width: 100%;
+.bikes-content a {
+  place-self: end;
 }
 
 .bikes-content ul {
@@ -73,16 +56,35 @@
   gap: 10px;
 }
 
-.bikes-content li {
+.bikes-content ul li {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
-.bikes-content img {
+.bikes-content ul li img {
   width: 24px;
+  margin-right: 8px;
 }
 
-.bikes-content .bttn {
-  place-self: end;
+@media (max-width: 1000px) {
+  .bikes-desc {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-block: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .bikes-content {
+    grid-template-columns: 1fr;
+  }
+
+  .bikes-content ul {
+    margin-bottom: 32px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bikes-content a {
+    place-self: start;
+  }
 }
