@@ -17,6 +17,7 @@
   flex: 1;
   min-width: 200px;
   width: 100%;
+  height: auto;
 }
 
 .bike-img img:first-child {
@@ -128,7 +129,7 @@
 }
 
 @media (max-width: 860px) {
-  s .bike-grid {
+  .bike-grid {
     grid-template-columns: 1fr;
   }
 
@@ -138,5 +139,11 @@
 
   .bike-insurance img {
     display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .bike-info ul {
+    grid-template-columns: 1fr;
   }
 }

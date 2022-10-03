@@ -1,7 +1,8 @@
 .budget {
   display: grid;
   grid-template-columns: 5fr 7fr;
-  padding-bottom: 120px;
+  margin-inline: auto;
+  padding: 20px;
 }
 
 .budget h3 {
@@ -141,6 +142,7 @@
 
 .budget-details img[src$="jpg"] {
   width: 100%;
+  height: auto;
 }
 
 .budget-details li {
@@ -150,7 +152,6 @@
 }
 
 .budget-details li img {
-  width: 16px;
   margin-right: 8px;
 }
 
@@ -174,13 +175,32 @@
   gap: 20px;
 }
 
+.terms {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 @media (max-width: 1000px) {
   .budget {
     grid-template-columns: 1fr;
   }
+
+  .budget-product {
+    border-radius: 4px 4px 0 0;
+  }
+
+  .budget-data {
+    border-radius: 0 0 4px 4px;
+  }
 }
 
 @media (max-width: 680px) {
+  .budget-product,
+  .budget-details {
+    grid-template-columns: 1fr;
+  }
+
   .budget-data .delivery {
     display: block;
   }

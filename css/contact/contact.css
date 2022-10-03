@@ -3,6 +3,7 @@
   grid-template-columns: 5fr 7fr;
   border-radius: 4px;
   padding-inline: 20px;
+  min-width: 120px;
 }
 
 .contact-data,
@@ -105,10 +106,12 @@ form * + button {
   .contact {
     grid-template-columns: 1fr;
   }
-}
-
-@media (max-width: 860px) {
   .contact-form fieldset:first-child {
     grid-template-columns: 1fr;
+  }
+
+  .contact-data,
+  .contact-form {
+    padding: 30px;
   }
 }

@@ -1,5 +1,5 @@
 .bttn {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.125rem;
   line-height: 1.33;
   font-weight: 600;
@@ -16,9 +16,8 @@
 }
 
 .bttn:hover {
-  background: linear-gradient(#ffb60d, #e59317)
+  background: linear-gradient(#ffb60d, #e59317);
 }
-
 
 .bttn.secundary {
   background: var(--c10);
@@ -29,12 +28,10 @@
   background: var(--c9);
 }
 
-
 .bttn.arrow {
   display: flex;
   align-items: center;
   gap: 8px;
-
 }
 
 .bttn.arrow::after {
@@ -54,14 +51,5 @@
   .bttn {
     font-size: var(--extra-font-small);
     padding: 8px 16px;
-  }
-
-  .bttn.arrow {
-    gap: 4px;
-  }
-
-  .bttn.arrow::after {
-    height: 9px;
-    width: 5px;
   }
 }
