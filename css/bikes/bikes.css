@@ -4,6 +4,8 @@
   gap: 40px;
   padding-block: 60px;
   padding-inline: 20px;
+
+  background: url(../../img/dec/top-right.svg) no-repeat top 60px right 20px;
 }
 
 .bikes-img {

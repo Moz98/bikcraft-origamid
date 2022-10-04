@@ -34,7 +34,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  background-color: var(--c12);
+  background: var(--c12) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    20px left 20px;
   border-radius: 4px 0 0 4px;
   align-content: start;
 }
@@ -166,7 +167,8 @@
 /* DATA COLUMN */
 
 .budget-data {
-  background-color: var(--c0);
+  background: var(--c0) url(../../img/dec/bottom-right.svg) no-repeat bottom
+    20px right 20px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -188,10 +190,12 @@
 
   .budget-product {
     border-radius: 4px 4px 0 0;
+    background-image: none;
   }
 
   .budget-data {
     border-radius: 0 0 4px 4px;
+    background-image: none;
   }
 }
 

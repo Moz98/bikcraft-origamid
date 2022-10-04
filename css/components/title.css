@@ -1,7 +1,5 @@
-.title-bg {
-  background-color: var(--c11);
-}
-
 .title {
-  padding: 60px 0px;
+  background: var(--c11) url(../../img/dec/top-right.svg) no-repeat top 60px
+    right 20px;
+  padding-block: 60px;
 }

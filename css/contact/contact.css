@@ -13,7 +13,8 @@
 }
 
 .contact-data {
-  background-color: var(--c12);
+  background: var(--c12) url(../../img/dec/bottom-left.svg) no-repeat bottom
+    20px left 20px;
   border-radius: 4px 0 0 4px;
 }
 
@@ -86,7 +87,8 @@ address a:last-child::before {
 }
 
 .contact-form {
-  background-color: var(--c0);
+  background: var(--c0) url(../../img/dec/bottom-right.svg) no-repeat bottom
+    20px right 20px;
   border-radius: 0 4px 4px 0;
 }
 
@@ -113,5 +115,6 @@ form * + button {
   .contact-data,
   .contact-form {
     padding: 30px;
+    background-image: none;
   }
 }
