@@ -36,3 +36,9 @@
     background: linear-gradient(to bottom, var(--c0) 25%, var(--c11) 0%);
   }
 }
+
+@media (max-width: 860px) {
+  .shadow.title-bg {
+    box-shadow: none;
+  }
+}

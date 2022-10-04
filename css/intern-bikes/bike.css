@@ -125,7 +125,8 @@
 }
 
 .bike-insurance-content {
-  padding: 180px 20px 180px 20px;
+  padding-inline: 20px;
+  padding-block: 180px;
 }
 
 @media (max-width: 860px) {
@@ -135,6 +136,10 @@
 
   .bike-insurance {
     grid-template-columns: 1fr;
+  }
+
+  .bike-insurance-content {
+    padding-block: 60px;
   }
 
   .bike-insurance img {
