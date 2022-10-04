@@ -33,11 +33,11 @@
             height="32"
           />
         </a>
-        <nav aria-label="primary" class="header-menu">
+        <nav aria-label="primary" class="header-menu" data-primary-menu>
           <ul class="navegation font-1-m-b">
-            <li><a href="./bikes.html">Bicicletas</a></li>
-            <li><a href="./insurance.html">Seguros</a></li>
-            <li><a href="./contact.html">Contatos</a></li>
+            <li><a href="/bikes.html">Bicicletas</a></li>
+            <li><a href="/insurance.html">Seguros</a></li>
+            <li><a href="/contact.html">Contatos</a></li>
           </ul>
         </nav>
       </div>
@@ -69,7 +69,11 @@
                 <li>Suporte 08 às 18h</li>
                 <li>Cobertura estadual</li>
               </ul>
-              <a class="bttn secundary" href="">inscreva-se</a>
+              <a
+                class="bttn secundary"
+                href="/budget.html?budget-type=insurance-choice&insurance-type=silver-choice"
+                >inscreva-se</a
+              >
             </li>
 
             <li class="insurance-gold">
@@ -87,7 +91,11 @@
                 <li>Desconto em parceiros</li>
                 <li>Acesso ao Clube Bikcraft</li>
               </ul>
-              <a class="bttn" href="">inscreva-se</a>
+              <a
+                class="bttn"
+                href="/budget.html?budget-type=insurance-choice&insurance-type=gold-choice"
+                >inscreva-se</a
+              >
             </li>
           </ul>
         </article>
@@ -176,7 +184,7 @@
       <h2 class="font-1-xxl color-12 spc-060">
         perguntas frequentes<span class="p1">.</span>
       </h2>
-      <dl>
+      <dl data-accordion-select>
         <div>
           <dt class="font-1-m-b">Qual a forma de pagamento vocês aceitam ?</dt>
           <dd class="font-2-m">
@@ -310,5 +318,7 @@
         </p>
       </footer>
     </div>
+
+    <script type="module" src="./scripts/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,13 @@
+a.actual-page {
+  color: var(--p1);
+  border-color: var(--p1);
+  transition: 200ms;
+}
+
+.questions dl dt.condensed::after {
+  rotate: 360deg;
+}
+
+.questions dl dd.appear {
+  display: block;
+}

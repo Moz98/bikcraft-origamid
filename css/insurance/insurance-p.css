@@ -37,6 +37,8 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
+
+  cursor: pointer;
 }
 
 .questions dl dt::before {
@@ -46,6 +48,7 @@
   height: 8px;
   margin-right: 8px;
   background-color: var(--p1);
+  transition: 300ms;
 }
 
 .questions dl dt::after {
@@ -54,9 +57,11 @@
   width: 14px;
   height: 6px;
   background: url(../../img/icones/seta-abrir.svg);
+  rotate: 180deg;
 }
 
 .questions dl dd {
+  display: none;
   margin-top: 16px;
   padding-left: 20px;
 }
