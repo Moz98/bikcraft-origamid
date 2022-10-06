@@ -9,8 +9,13 @@ export function accordionList() {
       const answer = clickedQuestion.nextElementSibling;
 
       if (answer) {
-        clickedQuestion.classList.toggle("condensed");
-        answer.classList.toggle("appear");
+        clickedQuestion.classList.toggle("condense"); // Show the content
+        answer.classList.toggle("appear"); // Show the content
+
+        // Change the aria
+        clickedQuestion.classList.contains("condense")
+          ? clickedQuestion.setAttribute("aria-expanded", "true")
+          : clickedQuestion.setAttribute("aria-expanded", "false");
       }
     }
 

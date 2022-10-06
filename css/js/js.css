@@ -4,7 +4,7 @@ a.actual-page {
   transition: 200ms;
 }
 
-.questions dl dt.condensed::after {
+.questions dl dt.condense::after {
   rotate: 360deg;
 }
 
