@@ -67,3 +67,7 @@
 @import "./budget/budget.css";
 
 @import "./js/js.css";
+
+/* Animations */
+
+@import "./animations/home.css";

@@ -18,6 +18,8 @@
   min-width: 200px;
   width: 100%;
   height: auto;
+
+  cursor: pointer;
 }
 
 .bike-img img:first-child {
