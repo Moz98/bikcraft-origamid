@@ -1,58 +1,8 @@
-.slide-from-left {
-  animation: slideFromLeft 600ms backwards;
+.animation {
+  opacity: 0;
 }
 
-.slide-from-right {
-  animation: slideFromRight 600ms backwards;
-}
-
-.slide-from-top {
-  animation: slideFromTop 600ms backwards;
-}
-
-.show-in {
-  animation: showIn 3s backwards;
-}
-
-@keyframes slideFromLeft {
-  from {
-    transform: translateX(-600px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes slideFromRigth {
-  from {
-    transform: translateX(600px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes slideFromTop {
-  from {
-    transform: translateY(-600px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0px);
-    opacity: 1;
-  }
-}
-
-@keyframes showIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.animation.ativo {
+  opacity: 1;
+  transition: 300ms;
 }
