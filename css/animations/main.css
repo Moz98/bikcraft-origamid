@@ -6,3 +6,10 @@
   opacity: 1;
   transition: 300ms;
 }
+
+/* Sticky Menu */
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 300;
+}
